@@ -1,14 +1,14 @@
 package BubbleSort;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class MyBubbleSort {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int size = scanner.nextInt();
-        int[] arr = new int[size];
+
+        int[] arr = { 10,41,-1,45,20,80,765,-112};
+
         MyBubbleSort object = new MyBubbleSort();
+        object.bubbleSort(arr);
         System.out.println("Sorted Array ------>>" + Arrays.toString(arr));
     }
 
@@ -25,7 +25,7 @@ public class MyBubbleSort {
                 // step 3 of the algorithm is given below
                 if (arr[j] > arr[j + 1]) {  // this if statement will check the element and element+1 and swap them if previous one is lower in size
                     //step 3.1 swapping of condition if the if statement is true
-                    System.out.println("Swapping ----> " + arr[j]+ "with--->" + arr[j + 1]);
+                    System.out.println("Swapping ----> " + arr[j] + "with--->" + arr[j + 1]);
                     //Swapping operation performed below
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
