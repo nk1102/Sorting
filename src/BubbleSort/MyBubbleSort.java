@@ -19,9 +19,14 @@ public class MyBubbleSort {
         for (int i = 0; i < arr.length; i++) {
             /**
              * this loop will run the times the array of length
-             * i.e it will ru nn times
+             * i.e it will run N times
              */
-
+            for (int j = 0; j <arr.length-1 ; j++) {
+                /**
+                 * This loop will run length-1 times of the array length
+                 * i.e it will run n-1 times
+                 */
+            }
 
             
         }
