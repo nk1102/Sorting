@@ -25,7 +25,7 @@ public class MyBubbleSort {
                 // step 3 of the algorithm is given below
                 if (arr[j] > arr[j + 1]) {  // this if statement will check the element and element+1 and swap them if previous one is lower in size
                     //step 3.1 swapping of condition if the if statement is true
-                    System.out.println("Swapping ----> " + arr[j]"with--->" + arr[j + 1]);
+                    System.out.println("Swapping ----> " + arr[j]+ "with--->" + arr[j + 1]);
                     //Swapping operation performed below
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
